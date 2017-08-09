@@ -64,7 +64,7 @@ var htmlTemplate=`
 
 
 `;
-return htmltemplate;
+return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
