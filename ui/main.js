@@ -28,6 +28,8 @@ submit.onclick=function()
     for(var i=0;i<names.length;i++){
     list+='<li>'+names[i]+'</li>';
 }
+var ul=document.getElemetById('namelist');
+ul.innerHTML=list;
 }
 }
         };
@@ -39,8 +41,7 @@ var name=nameInput.value;
 {
   
 }
-var ul=document.getElemetById('namelist');
-ul.innerHTML=list;
+
 
 };
     
