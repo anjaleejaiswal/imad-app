@@ -26,7 +26,7 @@ submit.onclick=function()
 }
 var ul=document.getElemetById('namelist');
 ul.innerHTML=list;
-}
+
 };
     
     
