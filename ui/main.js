@@ -14,7 +14,13 @@ button.onclick=function(){
         request.send(null);
     };
     
-
+var name=document.getElementById('name');
+var name=nameInput.value;
+var submit=document.getElementById('submit_btn');
+submit.onclick=function()
+{
+    
+}
     
     
     
